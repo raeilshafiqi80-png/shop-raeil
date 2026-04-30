@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Lobster Two", sans-serif;
+     font-weight: 400;
+     font-style: normal;
+    
+}
+
+
+
+
+section{
+    padding: 5% 10%;
+}
+
+.main-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/InShot_20260427_001721987.jpg);
+    background-size:100% 200%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+}
+body.dark .main-home{
+    background-image: url(../img/photo_2026-04-29_05-23-40.jpg);
+}
+
+
+.main-text h5{
+    color: #ee1c47;
+    font-size: 65px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.main-text h1{
+    color:#000;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+
+}
+
+.main-text p {
+ color: #333c56;
+ font-size: 20px;
+ font-style: italic;
+ margin-bottom: 20px;
+}
+
+.center-text h2{
+    color: #111;
+    font-size: 28px;
+    text-transform: capitalize;
+    text-align: center;
+    text-shadow:2px 2px 5px black;
+    margin-bottom: 30px;
+}
+
+.center-text span{
+ color: #ee1c47;
+ text-shadow:2px 2px 5px #ee1c47;
+}
+
+.main-text h1{
+    color:#000000;
+    font-size: 65px;
+    text-transform: capitalize;
+    line-height: 1.1;
+    font-weight: 600;
+    margin: 6px 0 10px;
+    text-shadow: #ff002b;
+
+}
+
+
+
+
+ .Scarves h2{
+    color: #ff002b;
+    text-shadow: 2px 2px 2px  #000;
+}
+
+
+.carousel{
+    margin: 59px auto;
+    max-width: 1200px;
+}
+
+.carousel-inner{
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgb(240, 0, 52);
+}
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+
+/* darkmod */
+
+body.dark{
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark .navbar{
+    background-color: #312e2e !important;
+}
+
+body.dark .nav-link{
+    color: #ffffff !important;
+}
+
+body.dark .main-text h1{
+    color: #fdfdfd;
+    text-shadow: 3px 3px 3px #f31861;
+}
+
+body.dark .main-text h5{
+    color: #ff002b;
+    text-shadow: 2px 2px 2px #fdfdfd;
+}
+
+body.dark .main-text p{
+    color: #f3082f;
+}
+
+body.dark .Scarves h2{
+    color: #db1035;
+    text-shadow: 2px 2px 2px #fdfdfd;
+}
+
+body.dark .carousel-inner{
+    box-shadow: 0 10px 30px rgb(255,255 ,255, 0.2);
+}
